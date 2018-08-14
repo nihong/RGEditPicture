@@ -1,0 +1,6 @@
+framework module Pods_RGEditPictureTests {
+  umbrella header "Pods-RGEditPictureTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
