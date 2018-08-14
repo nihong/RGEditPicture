@@ -17,6 +17,43 @@
 		CBED490A212310FD00ABF4AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4909212310FD00ABF4AA /* main.m */; };
 		CBED4914212310FD00ABF4AA /* RGEditPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4913212310FD00ABF4AA /* RGEditPictureTests.m */; };
 		CBED491F212310FD00ABF4AA /* RGEditPictureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED491E212310FD00ABF4AA /* RGEditPictureUITests.m */; };
+		CBED494B212319E600ABF4AA /* RGEditPhotosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4936212319E600ABF4AA /* RGEditPhotosVC.m */; };
+		CBED494C212319E600ABF4AA /* RGTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4938212319E600ABF4AA /* RGTagViewController.m */; };
+		CBED494F212319E600ABF4AA /* RGPhotoImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4940212319E600ABF4AA /* RGPhotoImagePickerController.m */; };
+		CBED4950212319E600ABF4AA /* RGEditPhotoTagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4941212319E600ABF4AA /* RGEditPhotoTagVC.m */; };
+		CBED4951212319E600ABF4AA /* RGVideoImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4942212319E600ABF4AA /* RGVideoImagePickerController.m */; };
+		CBED4952212319E600ABF4AA /* RGMediaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4945212319E600ABF4AA /* RGMediaTabBarController.m */; };
+		CBED4953212319E600ABF4AA /* RGEditVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4946212319E600ABF4AA /* RGEditVideoVC.m */; };
+		CBED4954212319E600ABF4AA /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4947212319E600ABF4AA /* LxGridViewFlowLayout.m */; };
+		CBED4955212319E600ABF4AA /* RGEditPhotoStickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4948212319E600ABF4AA /* RGEditPhotoStickerVC.m */; };
+		CBED4956212319E600ABF4AA /* RGEditPhotosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED494A212319E600ABF4AA /* RGEditPhotosModel.m */; };
+		CBED496B21231A4100ABF4AA /* ZYTagInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED495821231A4100ABF4AA /* ZYTagInfo.m */; };
+		CBED496C21231A4100ABF4AA /* UIImage+PLSClip.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED495A21231A4100ABF4AA /* UIImage+PLSClip.m */; };
+		CBED496D21231A4100ABF4AA /* UIView+ZYTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED495D21231A4100ABF4AA /* UIView+ZYTagView.m */; };
+		CBED496E21231A4100ABF4AA /* RGEditPhotoTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED496121231A4100ABF4AA /* RGEditPhotoTagsView.m */; };
+		CBED496F21231A4100ABF4AA /* ZYTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED496321231A4100ABF4AA /* ZYTagView.m */; };
+		CBED497021231A4100ABF4AA /* RGRecordVideoFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED496521231A4100ABF4AA /* RGRecordVideoFunctionView.m */; };
+		CBED497121231A4100ABF4AA /* RGAddRelatedProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED496621231A4100ABF4AA /* RGAddRelatedProductCell.m */; };
+		CBED497221231A4100ABF4AA /* RGEditPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED496821231A4100ABF4AA /* RGEditPhotoView.m */; };
+		CBED497321231A4100ABF4AA /* PLSClipMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED496A21231A4100ABF4AA /* PLSClipMovieView.m */; };
+		CBED499E212323E600ABF4AA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CBED497D212323E600ABF4AA /* LICENSE */; };
+		CBED499F212323E600ABF4AA /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4982212323E600ABF4AA /* TZImageCropManager.m */; };
+		CBED49A0212323E600ABF4AA /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4984212323E600ABF4AA /* TZAssetCell.m */; };
+		CBED49A1212323E600ABF4AA /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4985212323E600ABF4AA /* TZVideoPlayerController.m */; };
+		CBED49A2212323E600ABF4AA /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4986212323E600ABF4AA /* TZAssetModel.m */; };
+		CBED49A3212323E600ABF4AA /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4987212323E600ABF4AA /* NSBundle+TZImagePicker.m */; };
+		CBED49A4212323E600ABF4AA /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED498A212323E600ABF4AA /* UIView+Layout.m */; };
+		CBED49A5212323E600ABF4AA /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED498B212323E600ABF4AA /* TZPhotoPreviewController.m */; };
+		CBED49A6212323E600ABF4AA /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBED498C212323E600ABF4AA /* TZImagePickerController.bundle */; };
+		CBED49A7212323E600ABF4AA /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED498D212323E600ABF4AA /* TZProgressView.m */; };
+		CBED49A8212323E600ABF4AA /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4990212323E600ABF4AA /* TZImageManager.m */; };
+		CBED49A9212323E600ABF4AA /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4992212323E600ABF4AA /* TZPhotoPickerController.m */; };
+		CBED49AA212323E600ABF4AA /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4993212323E600ABF4AA /* TZPhotoPreviewCell.m */; };
+		CBED49AB212323E600ABF4AA /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4999212323E600ABF4AA /* TZImagePickerController.m */; };
+		CBED49AC212323E600ABF4AA /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED499A212323E600ABF4AA /* TZLocationManager.m */; };
+		CBED49AD212323E600ABF4AA /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED499B212323E600ABF4AA /* TZGifPhotoPreviewController.m */; };
+		CBED49AE212323E600ABF4AA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CBED499D212323E600ABF4AA /* README.md */; };
+		CBED49B421232C9D00ABF4AA /* BeautyPophotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED49B321232C9D00ABF4AA /* BeautyPophotoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +94,80 @@
 		CBED491A212310FD00ABF4AA /* RGEditPictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGEditPictureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBED491E212310FD00ABF4AA /* RGEditPictureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGEditPictureUITests.m; sourceTree = "<group>"; };
 		CBED4920212310FD00ABF4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBED4932212319E600ABF4AA /* RGVideoImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGVideoImagePickerController.h; sourceTree = "<group>"; };
+		CBED4933212319E600ABF4AA /* RGEditPhotoTagVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGEditPhotoTagVC.h; sourceTree = "<group>"; };
+		CBED4934212319E600ABF4AA /* RGPhotoImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGPhotoImagePickerController.h; sourceTree = "<group>"; };
+		CBED4936212319E600ABF4AA /* RGEditPhotosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGEditPhotosVC.m; sourceTree = "<group>"; };
+		CBED4938212319E600ABF4AA /* RGTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTagViewController.m; sourceTree = "<group>"; };
+		CBED4939212319E600ABF4AA /* RGMediaTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMediaTabBarController.h; sourceTree = "<group>"; };
+		CBED493A212319E600ABF4AA /* RGEditPhotosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGEditPhotosModel.h; sourceTree = "<group>"; };
+		CBED493C212319E600ABF4AA /* RGEditPhotoStickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGEditPhotoStickerVC.h; sourceTree = "<group>"; };
+		CBED493D212319E600ABF4AA /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		CBED493E212319E600ABF4AA /* RGEditVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGEditVideoVC.h; sourceTree = "<group>"; };
+		CBED4940212319E600ABF4AA /* RGPhotoImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGPhotoImagePickerController.m; sourceTree = "<group>"; };
+		CBED4941212319E600ABF4AA /* RGEditPhotoTagVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGEditPhotoTagVC.m; sourceTree = "<group>"; };
+		CBED4942212319E600ABF4AA /* RGVideoImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGVideoImagePickerController.m; sourceTree = "<group>"; };
+		CBED4943212319E600ABF4AA /* RGTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTagViewController.h; sourceTree = "<group>"; };
+		CBED4944212319E600ABF4AA /* RGEditPhotosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGEditPhotosVC.h; sourceTree = "<group>"; };
+		CBED4945212319E600ABF4AA /* RGMediaTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMediaTabBarController.m; sourceTree = "<group>"; };
+		CBED4946212319E600ABF4AA /* RGEditVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGEditVideoVC.m; sourceTree = "<group>"; };
+		CBED4947212319E600ABF4AA /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+		CBED4948212319E600ABF4AA /* RGEditPhotoStickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGEditPhotoStickerVC.m; sourceTree = "<group>"; };
+		CBED494A212319E600ABF4AA /* RGEditPhotosModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGEditPhotosModel.m; sourceTree = "<group>"; };
+		CBED495821231A4100ABF4AA /* ZYTagInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTagInfo.m; sourceTree = "<group>"; };
+		CBED495921231A4100ABF4AA /* RGRecordVideoFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRecordVideoFunctionView.h; sourceTree = "<group>"; };
+		CBED495A21231A4100ABF4AA /* UIImage+PLSClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PLSClip.m"; sourceTree = "<group>"; };
+		CBED495B21231A4100ABF4AA /* ZYTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTagView.h; sourceTree = "<group>"; };
+		CBED495C21231A4100ABF4AA /* RGEditPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGEditPhotoView.h; sourceTree = "<group>"; };
+		CBED495D21231A4100ABF4AA /* UIView+ZYTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYTagView.m"; sourceTree = "<group>"; };
+		CBED495E21231A4100ABF4AA /* RGAddRelatedProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGAddRelatedProductCell.h; sourceTree = "<group>"; };
+		CBED495F21231A4100ABF4AA /* PLSClipMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSClipMovieView.h; sourceTree = "<group>"; };
+		CBED496021231A4100ABF4AA /* RGRecordVideoBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRecordVideoBottomView.h; sourceTree = "<group>"; };
+		CBED496121231A4100ABF4AA /* RGEditPhotoTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGEditPhotoTagsView.m; sourceTree = "<group>"; };
+		CBED496221231A4100ABF4AA /* ZYTagInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTagInfo.h; sourceTree = "<group>"; };
+		CBED496321231A4100ABF4AA /* ZYTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTagView.m; sourceTree = "<group>"; };
+		CBED496421231A4100ABF4AA /* UIImage+PLSClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PLSClip.h"; sourceTree = "<group>"; };
+		CBED496521231A4100ABF4AA /* RGRecordVideoFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGRecordVideoFunctionView.m; sourceTree = "<group>"; };
+		CBED496621231A4100ABF4AA /* RGAddRelatedProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGAddRelatedProductCell.m; sourceTree = "<group>"; };
+		CBED496721231A4100ABF4AA /* UIView+ZYTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYTagView.h"; sourceTree = "<group>"; };
+		CBED496821231A4100ABF4AA /* RGEditPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGEditPhotoView.m; sourceTree = "<group>"; };
+		CBED496921231A4100ABF4AA /* RGEditPhotoTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGEditPhotoTagsView.h; sourceTree = "<group>"; };
+		CBED496A21231A4100ABF4AA /* PLSClipMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSClipMovieView.m; sourceTree = "<group>"; };
+		CBED497A2123216000ABF4AA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CBED497D212323E600ABF4AA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CBED4980212323E600ABF4AA /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		CBED4981212323E600ABF4AA /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		CBED4982212323E600ABF4AA /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		CBED4983212323E600ABF4AA /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		CBED4984212323E600ABF4AA /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		CBED4985212323E600ABF4AA /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		CBED4986212323E600ABF4AA /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		CBED4987212323E600ABF4AA /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		CBED4988212323E600ABF4AA /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		CBED4989212323E600ABF4AA /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		CBED498A212323E600ABF4AA /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		CBED498B212323E600ABF4AA /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		CBED498C212323E600ABF4AA /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		CBED498D212323E600ABF4AA /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		CBED498E212323E600ABF4AA /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		CBED498F212323E600ABF4AA /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		CBED4990212323E600ABF4AA /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		CBED4991212323E600ABF4AA /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		CBED4992212323E600ABF4AA /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		CBED4993212323E600ABF4AA /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		CBED4994212323E600ABF4AA /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		CBED4995212323E600ABF4AA /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		CBED4996212323E600ABF4AA /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		CBED4997212323E600ABF4AA /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		CBED4998212323E600ABF4AA /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		CBED4999212323E600ABF4AA /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		CBED499A212323E600ABF4AA /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		CBED499B212323E600ABF4AA /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		CBED499C212323E600ABF4AA /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		CBED499D212323E600ABF4AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CBED49B12123261500ABF4AA /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		CBED49B221232C9D00ABF4AA /* BeautyPophotoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyPophotoItem.h; sourceTree = "<group>"; };
+		CBED49B321232C9D00ABF4AA /* BeautyPophotoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyPophotoItem.m; sourceTree = "<group>"; };
 		D8D9CD70CB22791B3F60EC7D /* Pods-RGEditPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGEditPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RGEditPicture/Pods-RGEditPicture.debug.xcconfig"; sourceTree = "<group>"; };
 		DF1B728C54DCCC9F5B7AED8E /* Pods-RGEditPictureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGEditPictureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RGEditPictureTests/Pods-RGEditPictureTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +244,8 @@
 		CBED48F9212310FB00ABF4AA /* RGEditPicture */ = {
 			isa = PBXGroup;
 			children = (
+				CBED49AF212325D600ABF4AA /* Tools */,
+				CBED497B212323AF00ABF4AA /* ThirdLib */,
 				CBED4930212317DD00ABF4AA /* Other */,
 				CBED492F212317D200ABF4AA /* Model */,
 				CBED492E212317C700ABF4AA /* View */,
@@ -141,11 +254,7 @@
 				CBED48FB212310FB00ABF4AA /* AppDelegate.m */,
 				CBED48FD212310FB00ABF4AA /* ViewController.h */,
 				CBED48FE212310FB00ABF4AA /* ViewController.m */,
-				CBED4900212310FB00ABF4AA /* Main.storyboard */,
 				CBED4903212310FD00ABF4AA /* Assets.xcassets */,
-				CBED4905212310FD00ABF4AA /* LaunchScreen.storyboard */,
-				CBED4908212310FD00ABF4AA /* Info.plist */,
-				CBED4909212310FD00ABF4AA /* main.m */,
 			);
 			path = RGEditPicture;
 			sourceTree = "<group>";
@@ -171,6 +280,11 @@
 		CBED492D212317B800ABF4AA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CBED4939212319E600ABF4AA /* RGMediaTabBarController.h */,
+				CBED4945212319E600ABF4AA /* RGMediaTabBarController.m */,
+				CBED4934212319E600ABF4AA /* RGPhotoImagePickerController.h */,
+				CBED4940212319E600ABF4AA /* RGPhotoImagePickerController.m */,
+				CBED4931212319E600ABF4AA /* RGPoPhoto */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +292,7 @@
 		CBED492E212317C700ABF4AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CBED495721231A4100ABF4AA /* RGPoPhoto */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +300,8 @@
 		CBED492F212317D200ABF4AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CBED49B221232C9D00ABF4AA /* BeautyPophotoItem.h */,
+				CBED49B321232C9D00ABF4AA /* BeautyPophotoItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,8 +309,132 @@
 		CBED4930212317DD00ABF4AA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CBED4905212310FD00ABF4AA /* LaunchScreen.storyboard */,
+				CBED4900212310FB00ABF4AA /* Main.storyboard */,
+				CBED4909212310FD00ABF4AA /* main.m */,
+				CBED4908212310FD00ABF4AA /* Info.plist */,
+				CBED497A2123216000ABF4AA /* PrefixHeader.pch */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		CBED4931212319E600ABF4AA /* RGPoPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				CBED493D212319E600ABF4AA /* LxGridViewFlowLayout.h */,
+				CBED4947212319E600ABF4AA /* LxGridViewFlowLayout.m */,
+				CBED493A212319E600ABF4AA /* RGEditPhotosModel.h */,
+				CBED494A212319E600ABF4AA /* RGEditPhotosModel.m */,
+				CBED493C212319E600ABF4AA /* RGEditPhotoStickerVC.h */,
+				CBED4948212319E600ABF4AA /* RGEditPhotoStickerVC.m */,
+				CBED4944212319E600ABF4AA /* RGEditPhotosVC.h */,
+				CBED4936212319E600ABF4AA /* RGEditPhotosVC.m */,
+				CBED4933212319E600ABF4AA /* RGEditPhotoTagVC.h */,
+				CBED4941212319E600ABF4AA /* RGEditPhotoTagVC.m */,
+				CBED493E212319E600ABF4AA /* RGEditVideoVC.h */,
+				CBED4946212319E600ABF4AA /* RGEditVideoVC.m */,
+				CBED4943212319E600ABF4AA /* RGTagViewController.h */,
+				CBED4938212319E600ABF4AA /* RGTagViewController.m */,
+				CBED4932212319E600ABF4AA /* RGVideoImagePickerController.h */,
+				CBED4942212319E600ABF4AA /* RGVideoImagePickerController.m */,
+			);
+			path = RGPoPhoto;
+			sourceTree = "<group>";
+		};
+		CBED495721231A4100ABF4AA /* RGPoPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				CBED495F21231A4100ABF4AA /* PLSClipMovieView.h */,
+				CBED496A21231A4100ABF4AA /* PLSClipMovieView.m */,
+				CBED495E21231A4100ABF4AA /* RGAddRelatedProductCell.h */,
+				CBED496621231A4100ABF4AA /* RGAddRelatedProductCell.m */,
+				CBED496921231A4100ABF4AA /* RGEditPhotoTagsView.h */,
+				CBED496121231A4100ABF4AA /* RGEditPhotoTagsView.m */,
+				CBED495C21231A4100ABF4AA /* RGEditPhotoView.h */,
+				CBED496821231A4100ABF4AA /* RGEditPhotoView.m */,
+				CBED496021231A4100ABF4AA /* RGRecordVideoBottomView.h */,
+				CBED495921231A4100ABF4AA /* RGRecordVideoFunctionView.h */,
+				CBED496521231A4100ABF4AA /* RGRecordVideoFunctionView.m */,
+				CBED496421231A4100ABF4AA /* UIImage+PLSClip.h */,
+				CBED495A21231A4100ABF4AA /* UIImage+PLSClip.m */,
+				CBED496721231A4100ABF4AA /* UIView+ZYTagView.h */,
+				CBED495D21231A4100ABF4AA /* UIView+ZYTagView.m */,
+				CBED496221231A4100ABF4AA /* ZYTagInfo.h */,
+				CBED495821231A4100ABF4AA /* ZYTagInfo.m */,
+				CBED495B21231A4100ABF4AA /* ZYTagView.h */,
+				CBED496321231A4100ABF4AA /* ZYTagView.m */,
+			);
+			path = RGPoPhoto;
+			sourceTree = "<group>";
+		};
+		CBED497B212323AF00ABF4AA /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				CBED497C212323E600ABF4AA /* TZImagePickerController */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		CBED497C212323E600ABF4AA /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				CBED497D212323E600ABF4AA /* LICENSE */,
+				CBED497E212323E600ABF4AA /* TZImagePickerController */,
+				CBED499D212323E600ABF4AA /* README.md */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		CBED497E212323E600ABF4AA /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				CBED497F212323E600ABF4AA /* TZImagePickerController */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		CBED497F212323E600ABF4AA /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				CBED4980212323E600ABF4AA /* TZPhotoPreviewCell.h */,
+				CBED4981212323E600ABF4AA /* TZPhotoPickerController.h */,
+				CBED4982212323E600ABF4AA /* TZImageCropManager.m */,
+				CBED4983212323E600ABF4AA /* TZImageManager.h */,
+				CBED4984212323E600ABF4AA /* TZAssetCell.m */,
+				CBED4985212323E600ABF4AA /* TZVideoPlayerController.m */,
+				CBED4986212323E600ABF4AA /* TZAssetModel.m */,
+				CBED4987212323E600ABF4AA /* NSBundle+TZImagePicker.m */,
+				CBED4988212323E600ABF4AA /* TZLocationManager.h */,
+				CBED4989212323E600ABF4AA /* TZImagePickerController.h */,
+				CBED498A212323E600ABF4AA /* UIView+Layout.m */,
+				CBED498B212323E600ABF4AA /* TZPhotoPreviewController.m */,
+				CBED498C212323E600ABF4AA /* TZImagePickerController.bundle */,
+				CBED498D212323E600ABF4AA /* TZProgressView.m */,
+				CBED498E212323E600ABF4AA /* TZGifPhotoPreviewController.h */,
+				CBED498F212323E600ABF4AA /* TZAssetCell.h */,
+				CBED4990212323E600ABF4AA /* TZImageManager.m */,
+				CBED4991212323E600ABF4AA /* TZImageCropManager.h */,
+				CBED4992212323E600ABF4AA /* TZPhotoPickerController.m */,
+				CBED4993212323E600ABF4AA /* TZPhotoPreviewCell.m */,
+				CBED4994212323E600ABF4AA /* NSBundle+TZImagePicker.h */,
+				CBED4995212323E600ABF4AA /* TZAssetModel.h */,
+				CBED4996212323E600ABF4AA /* TZVideoPlayerController.h */,
+				CBED4997212323E600ABF4AA /* TZPhotoPreviewController.h */,
+				CBED4998212323E600ABF4AA /* UIView+Layout.h */,
+				CBED4999212323E600ABF4AA /* TZImagePickerController.m */,
+				CBED499A212323E600ABF4AA /* TZLocationManager.m */,
+				CBED499B212323E600ABF4AA /* TZGifPhotoPreviewController.m */,
+				CBED499C212323E600ABF4AA /* TZProgressView.h */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		CBED49AF212325D600ABF4AA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CBED49B12123261500ABF4AA /* Config.h */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,8 +543,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBED49AE212323E600ABF4AA /* README.md in Resources */,
 				CBED4907212310FD00ABF4AA /* LaunchScreen.storyboard in Resources */,
 				CBED4904212310FD00ABF4AA /* Assets.xcassets in Resources */,
+				CBED49A6212323E600ABF4AA /* TZImagePickerController.bundle in Resources */,
+				CBED499E212323E600ABF4AA /* LICENSE in Resources */,
 				CBED4902212310FB00ABF4AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,9 +640,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBED496F21231A4100ABF4AA /* ZYTagView.m in Sources */,
+				CBED49AA212323E600ABF4AA /* TZPhotoPreviewCell.m in Sources */,
+				CBED4955212319E600ABF4AA /* RGEditPhotoStickerVC.m in Sources */,
+				CBED497021231A4100ABF4AA /* RGRecordVideoFunctionView.m in Sources */,
+				CBED49A1212323E600ABF4AA /* TZVideoPlayerController.m in Sources */,
+				CBED496B21231A4100ABF4AA /* ZYTagInfo.m in Sources */,
+				CBED494C212319E600ABF4AA /* RGTagViewController.m in Sources */,
+				CBED497221231A4100ABF4AA /* RGEditPhotoView.m in Sources */,
+				CBED494F212319E600ABF4AA /* RGPhotoImagePickerController.m in Sources */,
+				CBED49A8212323E600ABF4AA /* TZImageManager.m in Sources */,
+				CBED4951212319E600ABF4AA /* RGVideoImagePickerController.m in Sources */,
+				CBED49AD212323E600ABF4AA /* TZGifPhotoPreviewController.m in Sources */,
+				CBED49B421232C9D00ABF4AA /* BeautyPophotoItem.m in Sources */,
+				CBED494B212319E600ABF4AA /* RGEditPhotosVC.m in Sources */,
+				CBED496E21231A4100ABF4AA /* RGEditPhotoTagsView.m in Sources */,
+				CBED49AC212323E600ABF4AA /* TZLocationManager.m in Sources */,
+				CBED49A4212323E600ABF4AA /* UIView+Layout.m in Sources */,
+				CBED49A2212323E600ABF4AA /* TZAssetModel.m in Sources */,
+				CBED496D21231A4100ABF4AA /* UIView+ZYTagView.m in Sources */,
+				CBED4952212319E600ABF4AA /* RGMediaTabBarController.m in Sources */,
+				CBED4950212319E600ABF4AA /* RGEditPhotoTagVC.m in Sources */,
+				CBED499F212323E600ABF4AA /* TZImageCropManager.m in Sources */,
 				CBED48FF212310FB00ABF4AA /* ViewController.m in Sources */,
+				CBED4956212319E600ABF4AA /* RGEditPhotosModel.m in Sources */,
+				CBED496C21231A4100ABF4AA /* UIImage+PLSClip.m in Sources */,
+				CBED49A5212323E600ABF4AA /* TZPhotoPreviewController.m in Sources */,
+				CBED49A7212323E600ABF4AA /* TZProgressView.m in Sources */,
+				CBED497121231A4100ABF4AA /* RGAddRelatedProductCell.m in Sources */,
 				CBED490A212310FD00ABF4AA /* main.m in Sources */,
+				CBED49A0212323E600ABF4AA /* TZAssetCell.m in Sources */,
+				CBED4953212319E600ABF4AA /* RGEditVideoVC.m in Sources */,
+				CBED49A9212323E600ABF4AA /* TZPhotoPickerController.m in Sources */,
+				CBED4954212319E600ABF4AA /* LxGridViewFlowLayout.m in Sources */,
 				CBED48FC212310FB00ABF4AA /* AppDelegate.m in Sources */,
+				CBED49A3212323E600ABF4AA /* NSBundle+TZImagePicker.m in Sources */,
+				CBED49AB212323E600ABF4AA /* TZImagePickerController.m in Sources */,
+				CBED497321231A4100ABF4AA /* PLSClipMovieView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +848,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MC32WL4XZA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RGEditPicture/RGEditPicture/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = RGEditPicture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,6 +868,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MC32WL4XZA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RGEditPicture/RGEditPicture/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = RGEditPicture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
