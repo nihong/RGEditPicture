@@ -22,8 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+<<<<<<< HEAD
     //origin master change
     //origin master change2
+=======
+    // Do any additional2
+    
+>>>>>>> demo
     //1
     [self.view addSubview:self.photoCollectionView];
     self.photoCollectionView.pictures = @[[UIImage imageNamed:@"girl_0"],
