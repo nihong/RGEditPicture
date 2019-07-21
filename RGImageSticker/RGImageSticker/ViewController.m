@@ -22,7 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    //origin master change
+    //origin master change2
+    // Do any additional2
+    // Do any additional3
     
     //1
     [self.view addSubview:self.photoCollectionView];
