@@ -10,7 +10,7 @@
 
 @interface RGImageCollectionView : UICollectionView
 
-
+//deveop 102
 @property(nonatomic,strong)NSArray <UIImage *>*pictures;
 
 @property(nonatomic,copy)void(^photoTaped)(NSIndexPath *index,CGPoint tapPoint);
