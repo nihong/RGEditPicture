@@ -10,7 +10,7 @@
 
 @interface RGImageCollectionView : UICollectionView
 
-//deveop 102
+
 @property(nonatomic,strong)NSArray <UIImage *>*pictures;
 
 @property(nonatomic,copy)void(^photoTaped)(NSIndexPath *index,CGPoint tapPoint);
@@ -26,7 +26,7 @@
 
 
 
-//deverlop 103
+
 //待编辑的图片cell
 @interface RGEditPhotoCell:UICollectionViewCell
 

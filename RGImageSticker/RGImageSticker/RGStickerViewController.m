@@ -7,9 +7,9 @@
 //
 
 #import "RGStickerViewController.h"
-//develop 107
-//develop 108
-//develop 109
+
+
+
 //贴纸
 @interface RGPhotoStickerCell:UICollectionViewCell
 
