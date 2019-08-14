@@ -107,3 +107,10 @@
 }
 
 @end
+//master 加代码
+/*
+ -(NSInteger)currentPicturePage
+ {
+ return lroundf(self.photoCollectionView.contentOffset.x/self.photoCollectionView.frame.size.width);
+ }
+ */
